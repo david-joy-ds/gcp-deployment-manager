@@ -1,0 +1,11 @@
+imports:
+- path: vm_template.py
+- path: network_template.py
+
+resources:
+- name: vm-1
+  type: vm_template.py
+- name: my-network
+  type: network_template.py
+
+  
